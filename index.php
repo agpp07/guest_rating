@@ -9,7 +9,7 @@
 <body>
     <div class="welcome-container">
         <h1>Selamat Datang di Sakura Matsuri <br>Festival Budaya</h1>
-        <p>Thank you for visiting! We hope you enjoy the beauty of the festival and the rich cultural experiences. <br>Please leave your valuable comments to help us improve!</p>
+        <p>Thankyou for visiting! We hope you enjoy the beauty of the festival and the rich cultural experiences. <br>Please leave your valuable comments to help us improve!</p>
 
         <div class="qr-container">
             <img src="images/sakura-festival.jpg" alt="Sakura Festival" class="festival-image">
