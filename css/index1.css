@@ -1,0 +1,85 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8f0; /* Soft off-white background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container for welcome message */
+.welcome-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fbe3f0; /* Soft pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 40px;
+    color: #e6007e; /* Bold pink color for header */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Image Container */
+.qr-container {
+    margin-top: 20px;
+}
+
+.festival-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Next Button */
+.next-button {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #f06caa; /* Light pink for the button */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #e6007e; /* Darker pink on hover */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .festival-image {
+        max-width: 100%;
+    }
+}
