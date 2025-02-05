@@ -1,106 +1,106 @@
 /* General Body Styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff8f0; /* Soft off-white background */
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff8f0; /* Soft off-white background */
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 /* Main container */
 div {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fbe3f0; /* Soft pink background */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fbe3f0; /* Soft pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 /* Heading Styles */
 h2 {
-    font-size: 36px;
-    color: #e6007e; /* Bold pink color for header */
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif;
+  font-size: 36px;
+  color: #e6007e; /* Bold pink color for header */
+  margin-bottom: 20px;
+  font-family: "Georgia", serif;
 }
 
 h3 {
-    font-size: 24px;
-    color: #d33a62; /* Medium pink */
-    margin-bottom: 10px;
-    font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #d33a62; /* Medium pink */
+  margin-bottom: 10px;
+  font-family: "Georgia", serif;
 }
 
 /* Label Styles */
 label {
-    display: block;
-    font-size: 18px;
-    color: #444;
-    margin-bottom: 8px;
-    text-align: left;
-    margin-top: 10px;
+  display: block;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-top: 10px;
 }
 
 /* Select Box Styles */
 select {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #333;
-    background-color: #fff;
-    border: 2px solid #e6007e; /* Pink border */
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #e6007e; /* Pink border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 /* Hover effect for select boxes */
 select:hover {
-    border-color: #d33a62; /* Darker pink on hover */
+  border-color: #d33a62; /* Darker pink on hover */
 }
 
 /* Button Styles */
 input[type="submit"] {
-    background-color: #f06caa; /* Light pink for the button */
-    color: white;
-    font-size: 18px;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #e6007e; /* Light pink for the button */
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #e6007e; /* Darker pink on hover */
+  background-color: #f06caa; /* Darker pink on hover */
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    div {
-        width: 90%;
-    }
+  div {
+    width: 90%;
+  }
 
-    h2 {
-        font-size: 30px;
-    }
+  h2 {
+    font-size: 30px;
+  }
 
-    h3 {
-        font-size: 20px;
-    }
+  h3 {
+    font-size: 20px;
+  }
 
-    label {
-        font-size: 16px;
-    }
+  label {
+    font-size: 16px;
+  }
 
-    select {
-        font-size: 14px;
-    }
+  select {
+    font-size: 14px;
+  }
 
-    input[type="submit"] {
-        font-size: 16px;
-        padding: 10px 20px;
-    }
+  input[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
