@@ -9,15 +9,15 @@
 <body>
     <div class="welcome-container">
         <h1>Selamat Datang di Sakura Matsuri <br>Festival Budaya</h1>
-        <p>Thankyou for visiting! We hope you enjoy the beauty of the festival and the rich cultural experiences. <br>Please leave your valuable comments to help us improve!</p>
+        <p>Terima kasih telah berkunjung! Kami harap Anda menikmati keindahan festival dan pengalaman budaya yang kaya. <br>Silakan tinggalkan komentar Anda yang berharga untuk membantu kami meningkatkan!</p>
 
         <div class="qr-container">
             <img src="images/sakura-festival.jpg" alt="Sakura Festival" class="festival-image">
         </div>
 
-        <p>Your feedback is very important to us. Please proceed to the next page to share your thoughts.</p>
+        <p>Tanggapan Anda sangat penting bagi kami. Silakan lanjutkan ke halaman berikutnya untuk menyampaikan pemikiran Anda.</p>
         
-        <a href="views/service.php" class="next-button">Next</a>
+        <a href="views/service.php" class="next-button">Selanjutnya</a>
     </div>
 </body>
 </html>

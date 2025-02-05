@@ -61,7 +61,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Hapus session setelah data disimpan
         session_unset();
         session_destroy();
-        echo "Feedback submitted successfully!";
+        // Redirect ke halaman yang sama dan menampilkan alert setelah redirect
+        echo "<script>
+                alert('Terimakasih! Feedback berhasil disubmit.');
+                window.location.href = '../index.php';
+              </script>";
+        exit();
     } else {
         echo "Error saving feedback.";
     }
@@ -108,6 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="submit" value="Submit Feedback">
         </form>
     </div>
+
 </body>
 
 </html>
